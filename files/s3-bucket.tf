@@ -5,4 +5,5 @@ module "s3_bucket" {
   version = "3.4.0"
 
   bucket_prefix = "GohCP"
+  tags = "Departments", "Billable"
 }
